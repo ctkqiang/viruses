@@ -6,4 +6,5 @@ Inline-style:
 Please fork it and create issue regards any error. 
 Remember to give credit to me.
 Feel free to Open issues, Comments ,add on. Feel free
-[Visit myBlog here](https://johnmelodymel.blogspot.com/)
+```
+[Visit myBlog here](https://johnmelodymel.blogspot.com)
