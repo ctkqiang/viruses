@@ -5,3 +5,5 @@ _This script is designed for scan unidentified virus._
 *Usage*
 > Run the Setup file `sudo sh setup.py
 
+>cd viruses
+>cd 'Virus Total Scanning Tool'
