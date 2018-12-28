@@ -3,11 +3,5 @@
 _This script is designed for scan unidentified virus._
 
 *Usage*
->`git clone `
-
->`cd`
-
->`chmod +x virustotalscan.py`
-
->`python virustotalscan.py`
+> Run the Setup file `sudo sh setup.py
 
